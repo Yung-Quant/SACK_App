@@ -3,7 +3,7 @@ package com.example.groupb.sack_app;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class DQMain extends AppCompatActivity {
+public class DQActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
