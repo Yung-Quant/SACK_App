@@ -4,13 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.groupb.sack_app.DQActivity">
+    tools:context="com.example.groupb.sack_app.Scenario1Activity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="jkgdu"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="104dp" />
 </android.support.constraint.ConstraintLayout>

@@ -19,7 +19,8 @@
         <activity android:name=".ConsentActivity" />
         <activity android:name=".ResourcesActivity" />
         <activity android:name=".ScenariosActivity" />
-        <activity android:name=".DQActivity"></activity>
+        <activity android:name=".DQActivity" />
+        <activity android:name=".Scenario1Activity"></activity>
     </application>
 
 </manifest>
