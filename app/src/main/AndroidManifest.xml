@@ -20,7 +20,22 @@
         <activity android:name=".ResourcesActivity" />
         <activity android:name=".ScenariosActivity" />
         <activity android:name=".DQActivity" />
-        <activity android:name=".Scenario1Activity"></activity>
+        <activity android:name=".Scenario1Activity" />
+        <activity android:name=".Scenario2Activity" />
+        <activity android:name=".Scenario3Activity" />
+        <activity android:name=".Scenario4Activity" />
+        <activity android:name=".S1O1Activity" />
+        <activity android:name=".S1O2Activity" />
+        <activity android:name=".S1O3Activity" />
+        <activity android:name=".S2O1Activity" />
+        <activity android:name=".S2O2Activity" />
+        <activity android:name=".S2O3Activity" />
+        <activity android:name=".S3O1Activity" />
+        <activity android:name=".S3O2Activity" />
+        <activity android:name=".S3O3Activity" />
+        <activity android:name=".S4O1Activity" />
+        <activity android:name=".S4O2Activity" />
+        <activity android:name=".S4O3Activity"></activity>
     </application>
 
 </manifest>

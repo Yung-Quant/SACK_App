@@ -5,26 +5,26 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class Scenario1Activity extends AppCompatActivity {
+public class Scenario3Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_scenario1);
+        setContentView(R.layout.activity_scenario3);
     }
 
-    public void toS1O1(View view) {
-        Intent intent = new Intent(this, S1O1Activity.class);
+    public void toS3O1(View view) {
+        Intent intent = new Intent(this, S3O1Activity.class);
         startActivity(intent);
     }
 
-    public void toS1O2(View view) {
-        Intent intent = new Intent(this, S1O2Activity.class);
+    public void toS3O2(View view) {
+        Intent intent = new Intent(this, S3O2Activity.class);
         startActivity(intent);
     }
 
-    public void toS1O3(View view) {
-        Intent intent = new Intent(this, S1O3Activity.class);
+    public void toS3O3(View view) {
+        Intent intent = new Intent(this, S3O3Activity.class);
         startActivity(intent);
     }
 }
