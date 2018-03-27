@@ -35,7 +35,20 @@
         <activity android:name=".S3O3Activity" />
         <activity android:name=".S4O1Activity" />
         <activity android:name=".S4O2Activity" />
-        <activity android:name=".S4O3Activity"></activity>
+        <activity android:name=".S4O3Activity" />
+        <activity android:name=".FamilyActivity" />
+        <activity android:name=".WorkplaceActivity" />
+        <activity android:name=".FriendsActivity" />
+        <activity android:name=".RelationshipActivity" />
+        <activity android:name=".StrangerActivity" />
+        <activity android:name=".ParentsActivity" />
+        <activity android:name=".SiblingsActivity" />
+        <activity android:name=".ExtendedFamilyActivity" />
+        <activity android:name=".CoworkersActivity" />
+        <activity android:name=".BossActivity" />
+        <activity android:name=".CustomersActivity" />
+        <activity android:name=".CurrentRelationshipActivity" />
+        <activity android:name=".ExRelationshipActivity"></activity>
     </application>
 
 </manifest>
