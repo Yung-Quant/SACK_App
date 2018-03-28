@@ -27,4 +27,18 @@ public class Scenario1Activity extends AppCompatActivity {
         Intent intent = new Intent(this, S1O3Activity.class);
         startActivity(intent);
     }
+
+    //Nav Buttons
+    public void toResources(View view) {
+        Intent intent = new Intent( this, ResourcesActivity.class);
+        startActivity(intent);
+    }
+    public void toHome(View view) {
+        Intent intent = new Intent( this, HomeScreenActivity.class);
+        startActivity(intent);
+    }
+    public void toContact(View view) {
+        Intent intent = new Intent( this, ContactActivity.class);
+        startActivity(intent);
+    }
 }
