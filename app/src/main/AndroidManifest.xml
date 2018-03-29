@@ -48,6 +48,7 @@
         <activity android:name=".BossActivity" />
         <activity android:name=".CustomersActivity" />
         <activity android:name=".CurrentRelationshipActivity" />
+        <activity android:name=".ContactActivity" />
         <activity android:name=".ExRelationshipActivity"></activity>
     </application>
 

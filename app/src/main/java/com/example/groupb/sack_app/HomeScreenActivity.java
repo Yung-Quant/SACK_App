@@ -32,4 +32,9 @@ public class HomeScreenActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DQActivity.class);
         startActivity(intent);
     }
+
+    public void toContact(View view) {
+        Intent intent = new Intent(this, ContactActivity.class);
+        startActivity(intent);
+    }
 }
