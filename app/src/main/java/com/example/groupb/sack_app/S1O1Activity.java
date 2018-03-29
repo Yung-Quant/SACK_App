@@ -18,6 +18,16 @@ public class S1O1Activity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void toConsent(View view) {
+        Intent intent = new Intent(this, ConsentActivity.class);
+        startActivity(intent);
+    }
+
+    public void toScenario1(View view) {
+        Intent intent = new Intent(this, Scenario1Activity.class);
+        startActivity(intent);
+    }
+
     //Nav Buttons
     public void toResources(View view) {
         Intent intent = new Intent( this, ResourcesActivity.class);

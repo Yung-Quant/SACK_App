@@ -13,8 +13,18 @@ public class S1O2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_s1_o2);
     }
 
-    public void toS1O1(View view) {
-        Intent intent = new Intent(this, S1O1Activity.class);
+    public void toScenarios(View view) {
+        Intent intent = new Intent(this, ScenariosActivity.class);
+        startActivity(intent);
+    }
+
+    public void toConsent(View view) {
+        Intent intent = new Intent(this, ConsentActivity.class);
+        startActivity(intent);
+    }
+
+    public void toScenario1(View view) {
+        Intent intent = new Intent(this, Scenario1Activity.class);
         startActivity(intent);
     }
 
