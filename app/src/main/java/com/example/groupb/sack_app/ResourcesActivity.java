@@ -13,4 +13,18 @@ public class ResourcesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_resources);
     }
 
+    //Nav Bar Methods
+    public void toResources(View view) {
+        Intent intent = new Intent( this, ResourcesActivity.class);
+        startActivity(intent);
+    }
+    public void toHome(View view) {
+        Intent intent = new Intent( this, HomeScreenActivity.class);
+        startActivity(intent);
+    }
+    public void toContact(View view) {
+        Intent intent = new Intent( this, ContactActivity.class);
+        startActivity(intent);
+    }
+
 }
