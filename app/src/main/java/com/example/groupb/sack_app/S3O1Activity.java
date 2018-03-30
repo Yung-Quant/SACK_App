@@ -18,6 +18,11 @@ public class S3O1Activity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void toScenario3(View view) {
+        Intent intent = new Intent( this, Scenario3Activity.class);
+        startActivity(intent);
+    }
+
     //Nav Buttons
     public void toResources(View view) {
         Intent intent = new Intent( this, ResourcesActivity.class);

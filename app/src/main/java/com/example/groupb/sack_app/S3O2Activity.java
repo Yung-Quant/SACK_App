@@ -13,8 +13,13 @@ public class S3O2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_s3_o2);
     }
 
-    public void toS3O1(View view) {
-        Intent intent = new Intent(this, S3O1Activity.class);
+    public void toScenarios(View view) {
+        Intent intent = new Intent(this, ScenariosActivity.class);
+        startActivity(intent);
+    }
+
+    public void toScenario3(View view) {
+        Intent intent = new Intent( this, Scenario3Activity.class);
         startActivity(intent);
     }
 

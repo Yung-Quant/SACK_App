@@ -115,7 +115,7 @@
     <Button
         android:id="@+id/button19"
         style="@android:style/Widget.Button"
-        android:layout_width="128"
+        android:layout_width="128dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
         android:layout_marginTop="24dp"
@@ -128,7 +128,7 @@
     <Button
         android:id="@+id/button20"
         style="@android:style/Widget.Button"
-        android:layout_width="128"
+        android:layout_width="128dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="64dp"
         android:layout_marginTop="24dp"
