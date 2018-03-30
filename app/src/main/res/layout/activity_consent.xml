@@ -115,7 +115,8 @@
         android:layout_marginStart="64dp"
         android:layout_marginTop="32dp"
         android:background="@color/darkPurple"
-        android:text="Button"
+        android:onClick="toLeaf"
+        android:text="leaf.ca"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button22" />
 
@@ -127,7 +128,8 @@
         android:layout_marginEnd="64dp"
         android:layout_marginTop="32dp"
         android:background="@color/darkPurple"
-        android:text="Button"
+        android:onClick="toRainnConsent"
+        android:text="RAINN.org"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button23" />
 

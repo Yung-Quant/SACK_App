@@ -35,6 +35,14 @@ public class ConsentActivity extends AppCompatActivity {
         goToUrl("http://laws-lois.justice.gc.ca/eng/acts/C-46/page-34.html#docCont");
     }
 
+    public void toLeaf (View view) {
+        goToUrl("http://www.leaf.ca/the-law-of-consent-in-sexual-assault/");
+    }
+
+    public void toRainnConsent (View view) {
+        goToUrl("https://www.rainn.org/articles/what-is-consent");
+    }
+
     //Nav Bar Methods
     public void toResources(View view) {
         Intent intent = new Intent( this, ResourcesActivity.class);
