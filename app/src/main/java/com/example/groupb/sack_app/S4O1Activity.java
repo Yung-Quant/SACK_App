@@ -18,6 +18,11 @@ public class S4O1Activity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void toScenario4(View view) {
+        Intent intent = new Intent( this, Scenario4Activity.class);
+        startActivity(intent);
+    }
+
     //Nav Buttons
     public void toResources(View view) {
         Intent intent = new Intent( this, ResourcesActivity.class);

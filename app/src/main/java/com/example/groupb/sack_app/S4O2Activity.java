@@ -13,11 +13,15 @@ public class S4O2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_s4_o2);
     }
 
-    public void toS4O1(View view) {
-        Intent intent = new Intent(this, S4O1Activity.class);
+    public void toScenarios(View view) {
+        Intent intent = new Intent(this, ScenariosActivity.class);
         startActivity(intent);
     }
 
+    public void toScenario4(View view) {
+        Intent intent = new Intent( this, Scenario4Activity.class);
+        startActivity(intent);
+    }
     //Nav Buttons
     public void toResources(View view) {
         Intent intent = new Intent( this, ResourcesActivity.class);
