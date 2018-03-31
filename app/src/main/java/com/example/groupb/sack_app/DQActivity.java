@@ -13,6 +13,26 @@ public class DQActivity extends AppCompatActivity {
         setContentView(R.layout.activity_dq);
     }
 
+    public void toFamily(View view) {
+        Intent intent = new Intent( this, FamilyActivity.class);
+        startActivity(intent);
+    }
+
+    public void toWorkplace(View view) {
+        Intent intent = new Intent( this, WorkplaceActivity.class);
+        startActivity(intent);
+    }
+
+    public void toStranger(View view) {
+        Intent intent = new Intent( this, StrangerActivity.class);
+        startActivity(intent);
+    }
+
+    public void toRelationship(View view) {
+        Intent intent = new Intent( this, RelationshipActivity.class);
+        startActivity(intent);
+    }
+
     //Nav Buttons
     public void toResources(View view) {
         Intent intent = new Intent( this, ResourcesActivity.class);

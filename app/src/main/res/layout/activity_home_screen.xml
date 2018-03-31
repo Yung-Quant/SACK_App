@@ -55,7 +55,7 @@
         android:layout_marginTop="32dp"
         android:background="@color/darkPurple"
         android:onClick="toDQ"
-        android:text="Direct Questions"
+        android:text="Tailored Resources"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
 
